@@ -7,3 +7,5 @@ branches and their roles.
 
 - **`rest-h2-TodoList`**: The primary branch containing the stable version of the project. it's provide a simple crud on
   Task Entity.
+- **`extension-functions-trailing-lambdas`**: It's provide a samples on extension functions and trailing lambdas in
+  kotlin.
