@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: kotlin-spring-exercise
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:todo
+    username: sa
+    password:
+  sql:
+    init:
+      schema-locations: classpath:sql/schema.sql
+  data:
+    jdbc:
+      dialect: h2
+  h2:
+    console:
+      enabled: true
